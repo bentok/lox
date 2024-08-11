@@ -2,4 +2,5 @@
 
 [<EntryPoint>]
 let main args =
-    Lox().Run(args)
+    init args
+    0
